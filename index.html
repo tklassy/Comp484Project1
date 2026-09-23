@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                Elements and Attributes on Guides Page:
+
+                Chosen element: audio
+                Used to embed an audio recording of a 3D printer operating.
+
+                Chosen attribute: controls
+                Controls displays the audio playback controls.
+
+                Chosen attribute: muted
+                Causes the audio to begin muted.
+
+                Chosen element: form
+                Used to group the controls used to submit a print suggestion.
+
+                Chosen element: input
+                Used inside the form to collect visitor input.
+
+                Chosen attribute: type
+                Used to define the purpose of each input field.
+            -->
+
+<head>
+  <meta charset="utf-8" />
+  <title>Introduction to 3D Printing</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header role="banner">
+    <h1>Comp 484 Project 1</h1>
+    <h2>Introduction to 3D Printing</h2>
+    <nav role="navigation">
+      <ul>
+        <li><a href="index.html" title="Introduction to 3D Printing">Introduction to 3D Printing</a></li>
+        <li><a href="printer.html" title="Printer Setup">3D Printer Setup</a></li>
+        <li><a href="guide.html" title="3D Printing Guide">3D Printing Guide</a></li>
+        <li><a href="projects.html" title="3D Printing Projects">3D Printing Projects</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main role="main">
+    <article role="article">
+
+      <p>
+        <img src="images/3D_Printer_Dual.webp" alt="3D Printers" width="510" height="375" class="flowRight">
+      </p>
+
+
+
+      <section>
+        <h3>What is 3D Printing?</h3>
+
+        <p>
+          3D printing is a manufacturing process that creates physical objects
+          from digital models. A 3D printer builds the object one layer at a time
+          until the full model is complete.
+        </p>
+
+        <p>
+          One of the most common types of 3D printing is fused deposition modeling,
+          or FDM. FDM printers heat plastic filament and deposit it onto a build
+          plate in thin layers.
+        </p>
+
+      </section>
+
+      <section>
+        <h3>Basic Printing Process</h3>
+
+        <ol>
+          <li>Create or download a 3D model.</li>
+          <li>Open the model in slicing software.</li>
+          <li>Choose print settings and generate the printer instructions.</li>
+          <li>Load filament and prepare the printer.</li>
+          <li>Start the print.</li>
+          <li>Remove and finish the completed object.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>3D Printing in Action</h3>
+
+        <p>
+          The video below shows an example of the 3D printing process in action. The printer builds the object layer by
+          layer, demonstrating the precision and capabilities of modern 3D printing technology.
+        </p>
+
+        <video controls width="640">
+          <source src="video/3D_Printer_Video.mp4" type="video/mp4">
+
+        </video>
+      </section>
+    </article>
+  </main>
+
+
+  </main>
+
+  <footer role="contentinfo">
+    <p>
+      Tim K. Comp 484
+    </p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>3D Printing Guide</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header role="banner">
+    <h1>Comp 484 Project 1</h1>
+    <h2>3D Printing Guide</h2>
+    <nav role="navigation">
+      <ul>
+        <li><a href="index.html" title="Introduction to 3D Printing">Introduction to 3D Printing</a></li>
+        <li><a href="printer.html" title="Printer Setup">3D Printer Setup</a></li>
+        <li><a href="guide.html" title="3D Printing Guide">3D Printing Guide</a></li>
+        <li><a href="projects.html" title="3D Printing Projects">3D Printing Projects</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main role="main">
+    <article>
+      <header>
+        <h2>Beginner 3D Printing Guide</h2>
+      </header>
+
+      <section>
+        <h3>Getting Started</h3>
+
+        <p>
+          Before starting a print, make sure the printer is clean, the correct
+          filament is loaded, and the model has been prepared in slicing software.
+        </p>
+
+        <ol>
+          <li>Choose a model.</li>
+          <li>Import the model into slicing software.</li>
+          <li>Select the correct printer and filament profile.</li>
+          <li>Adjust print settings if needed.</li>
+          <li>Slice the model.</li>
+          <li>Send the file to the printer.</li>
+          <li>Monitor the first few layers.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>What a 3D Printer Sounds Like</h3>
+
+        <p>
+          The audio below provides an example of the sounds produced by a
+          3D printer while operating. Many dont realize how loud a printer is, thinking theirs may be malfunctioning.
+          The sound is normal and expected.
+        </p>
+
+
+        <audio controls muted>
+          <source src="audio/3D_Printer_Sound.mp3" type="audio/mpeg">
+
+        </audio>
+      </section>
+
+      <section>
+        <h3>Print Suggestion Form</h3>
+
+        <p>
+          Visitors can use this form to suggest an object that would be
+          interesting to 3D print.
+        </p>
+
+
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+
+          <br><br>
+
+          <label for="suggestion">Print Suggestion:</label>
+          <input type="text" id="suggestion" name="suggestion">
+
+          <br><br>
+
+          <input type="submit" value="Submit">
+          <!-- Would put form data into a mailto link, maybe for project 2. Blank for now. -->
+        </form>
+      </section>
+
+      <section>
+        <h3>Helpful Resources</h3>
+
+        <ul>
+          <li>
+            <a href="https://makerworld.com/" target="_blank">
+              MakerWorld
+            </a>
+          </li>
+          <li>
+            <a href="https://www.thingiverse.com/" target="_blank">
+              Thingiverse
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.printables.com/" target="_blank">
+              Printables
+            </a>
+          </li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <p>
+      Tim K. Comp 484
+    </p>
+  </footer>
+
+</body>
+
+</html>
